@@ -1,0 +1,10 @@
+[project]
+name = "game-scaffold"
+version = "0.1.0"
+description = "A minimal asset dashboard for game prototyping."
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
