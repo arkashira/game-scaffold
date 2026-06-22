@@ -1,13 +1,8 @@
-# game-scaffold
-
-A lightweight in‑memory asset dashboard for game prototyping.  
-It tracks temporary assets, provides metadata, thumbnails, and full‑size previews, and automatically refreshes when new assets are added.
-
-## Features
-
-- List assets with name, type, creation time, and thumbnail preview.
-- Retrieve full details (including full‑size preview) for a selected asset.
-- Automatic refresh of the dashboard when assets are added.
-- Fully tested with `pytest` and no external dependencies.
+# Asset List
+A simple asset list management system.
 
 ## Usage
+1. Create an `AssetList` object.
+2. Add assets to the list using `add_asset`.
+3. Delete assets from the list using `delete_asset`.
+4. Get the list of assets using `get_asset_list`.
